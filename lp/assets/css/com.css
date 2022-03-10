@@ -23,7 +23,7 @@
 }
 
 * {
-  font-family: Gotham Rounded, arial, sans-serif;
+  font-family: arial, sans-serif;
 }
 
 body {
@@ -66,7 +66,6 @@ body {
   padding: 0;
   margin: 10px 0;
   width: 100%;
-  font-family: Arial, sans-serif;
 }
 
 .fb-comments-reply-wrapper {
@@ -268,7 +267,7 @@ tr {
       white-space: normal; 
       font-size: 25px;
       color: #0B0E1D; 
-      font-family: Oswa ld; 
+      font-family: Gotham Rounded; 
       font-weight: bold; 
       text-shadow: #000000 0px 1px 0px;
       text-decoration: none;
