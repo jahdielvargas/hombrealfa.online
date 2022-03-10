@@ -55,10 +55,3 @@ body {
 	font-size: 18px;
 	color: white;
 }
-
-@media screen and (max-width: 500px) {
-	.btn {
-		font-size: 20px;
-		font-weight: bold;
-	}
-}
