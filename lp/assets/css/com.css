@@ -269,7 +269,7 @@ tr {
       color: #0B0E1D; 
       font-family: Gotham Rounded; 
       font-weight: bold; 
-      text-shadow: #000000 0px 1px 0px;
+      text-shadow: #ffbf00 0px 2px 0px;
       text-decoration: none;
     }
     .span-btn2 {
@@ -283,7 +283,7 @@ tr {
       z-index: 1; 
       margin: .2em 0 -.5em; 
       font-size: 15px; 
-      color: white; 
+      color: #bd2130; 
       font-family: Cabin; 
       font-weight: bold; 
       font-style: italic;
