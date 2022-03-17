@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Gotham Rounded;
+	src: url("/font.otf") format("opentype");
+}
+
 @media (max-width: 768px) {
   .video-player {
     width: 100%;
@@ -18,15 +23,35 @@
 }
 
 * {
-  font-family: helvetica, arial, sans-serif;
+  font-family: arial, sans-serif;
 }
 
 body {
   font-size: 16px;
 }
 
+.my-4 {
+  font-family: Gotham Rounded;
+}
+
+.sound {
+  font-size: 14px;
+}
+
+.w-bottom-bar {
+  opacity: 0;
+}
+
+.emoji {
+  max-width: 20px;
+  margin-top: -3px;
+  padding-right: 3px;
+}
+
+
 .fb-comments {
   border: 1px solid #e9ebee;
+  background-color: white;
   border-radius: 3px;
   padding: 0 15px;
   padding-bottom: 15px;
@@ -38,6 +63,7 @@ body {
 .fb-comments-header {
   padding: 15px 0;
   border-bottom: 1px solid #e9ebee;
+  text-align: left;
 }
 
 .fb-comments-header span {
@@ -63,6 +89,7 @@ tr,
 td {
   border: none;
   margin: 0;
+  text-align: start;
 }
 
 td {
@@ -94,6 +121,7 @@ tr {
   font-weight: 700;
   cursor: pointer;
   cursor: hand;
+  text-align: left;
 }
 
 .fb-comments-comment-name name:hover {
@@ -229,9 +257,9 @@ tr {
       border-style: solid; 
       width: 100%; padding-left: 0!important; padding-right: 0!important; 
       margin-bottom: 10px; 
-      padding: 22px 44px; border-color: #ff5535; border-width: 0px; 
+      padding: 22px 44px; border-color: #ffba00 ; border-width: 0px; 
       border-radius: 6px; 
-      background: linear-gradient(to bottom, #ff6600 0%, #ff5535 100%); 
+      background: linear-gradient(to bottom, #fff800 0%, #ffbf00 100%); 
       box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5); 
       text-decoration: none!important;
     }
@@ -249,10 +277,10 @@ tr {
       padding: 0 15px; 
       white-space: normal; 
       font-size: 25px;
-      color: #ffffff; 
-      font-family: Oswald; 
+      color: #0B0E1D; 
+      font-family: Gotham Rounded; 
       font-weight: bold; 
-      text-shadow: #000000 0px 1px 0px;
+      text-shadow: #ffbf00 0px 1px 0px;
       text-decoration: none;
     }
     .span-btn2 {
@@ -266,7 +294,7 @@ tr {
       z-index: 1; 
       margin: .2em 0 -.5em; 
       font-size: 15px; 
-      color: #f5e051; 
+      color: #bd2130; 
       font-family: Cabin; 
       font-weight: bold; 
       font-style: italic;
