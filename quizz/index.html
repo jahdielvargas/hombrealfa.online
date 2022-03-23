@@ -73,6 +73,23 @@
       display: none;
     }
   </style>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '925268098066019');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=925268098066019&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
   <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
@@ -82,7 +99,7 @@
 <div id="primeira">
 <div class="question">
 <h1>Pregunta 1</h1>
-<p>¿Quieres realmente descubrir este secreto?</p>
+<p>Quieres realmente descubrir este secreto?</p>
 </div>
 <div class="answer">
 <button class="btn" onclick="segunda()">SI</button>
@@ -92,7 +109,7 @@
 <div id="segunda" class="hide">
 <div class="question">
 <h1>Pregunta 2</h1>
-<p>¿Tienes más de 18 años? </p>
+<p>¿Prometes no revelar este secreto?</p>
 </div>
 <div class="answer">
 <button class="btn" onclick="terceira()">SI</button>
@@ -102,7 +119,7 @@
 <div id="terceira" class="hide">
 <div class="question">
 <h1>Pregunta 3</h1>
-<p>La presentación está disponible por TIEMPO LIMITADO para un pequeño número de usuarios al mismo tiempo... ¿Tienes intención de verla hasta el final?</p>
+<p>El siguiente video tiene un límite para que lo vean muy pocas personas al mismo tiempo... ¿Tienes intención de verlo hasta el final?</p>
 </div>
 <div class="answer">
 <button class="btn" onclick="redirect()">SI</button>
